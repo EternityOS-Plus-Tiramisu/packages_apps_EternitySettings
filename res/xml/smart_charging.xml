@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020-2022 crDroid Android Project
+     Copyright (C) 2022 Eternity-OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,20 +18,20 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/smart_charging_title">
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <com.eternity.settings.preferences.SystemSettingSwitchPreference
         android:key="smart_charging"
         android:title="@string/smart_charging_switch_title"
         android:summary="@string/smart_charging_summary"
         android:defaultValue="false" />
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <com.eternity.settings.preferences.SystemSettingSwitchPreference
         android:key="smart_charging_reset_stats"
         android:title="@string/smart_charging_reset_stats_title"
         android:summary="@string/smart_charging_reset_stats_summary"
         android:defaultValue="false"
         android:dependency="smart_charging" />
 
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <com.eternity.settings.preferences.SystemSettingSeekBarPreference
         android:key="smart_charging_level"
         android:title="@string/smart_charging_level_title"
         android:max="100"
@@ -40,7 +40,7 @@
         android:defaultValue="80"
         android:dependency="smart_charging" />
 
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <com.eternity.settings.preferences.SystemSettingSeekBarPreference
         android:key="smart_charging_resume_level"
         android:title="@string/smart_charging_resume_level_title"
         android:max="99"
