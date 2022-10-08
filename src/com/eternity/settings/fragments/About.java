@@ -54,7 +54,6 @@ public class About extends SettingsPreferenceFragment {
 
         mSourceUrl = findPreference(KEY_ETERNITY_SOURCE);
         mTelegramUrl = findPreference(KEY_ETERNITY_TELEGRAM);
-        mShare = findPreference(KEY_ETERNITY_SHARE);
         mTelegramChannelUrl = findPreference(KEY_ETERNITY_TELEGRAM_CHANNEL);
     }
 
@@ -66,6 +65,7 @@ public class About extends SettingsPreferenceFragment {
             launchUrl("https://t.me/eternity_os");
         } else if (preference == mTelegramChannelUrl) {
             launchUrl("https://t.me/eternity_updates");
+        }
 
         return super.onPreferenceTreeClick(preference);
     }
