@@ -19,8 +19,6 @@ import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;
 import android.os.UserHandle;
 
-import lineageos.providers.LineageSettings;
-
 
 public class LineageSystemSettingsStore extends androidx.preference.PreferenceDataStore
         implements PreferenceDataStore {

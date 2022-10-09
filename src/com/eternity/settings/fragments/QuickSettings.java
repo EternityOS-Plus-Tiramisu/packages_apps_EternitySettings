@@ -44,8 +44,6 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.eternity.settings.preferences.CustomSeekBarPreference;
 
-import lineageos.providers.LineageSettings;
-
 import java.util.List;
 import java.util.ArrayList;
 

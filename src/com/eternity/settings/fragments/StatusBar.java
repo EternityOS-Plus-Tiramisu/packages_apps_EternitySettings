@@ -47,7 +47,6 @@ import com.eternity.settings.utils.DeviceUtils;
 import com.eternity.settings.utils.TelephonyUtils;
 
 import lineageos.preference.LineageSystemSettingListPreference;
-import lineageos.providers.LineageSettings;
 
 import java.util.List;
 

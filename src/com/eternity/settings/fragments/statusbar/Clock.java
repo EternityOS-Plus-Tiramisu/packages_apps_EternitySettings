@@ -43,7 +43,6 @@ import com.eternity.settings.preferences.SystemSettingListPreference;
 import java.util.Date;
 
 import lineageos.preference.LineageSystemSettingListPreference;
-import lineageos.providers.LineageSettings;
 
 public class Clock extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener  {

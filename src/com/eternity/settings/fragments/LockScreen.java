@@ -44,8 +44,6 @@ import com.eternity.settings.fragments.lockscreen.UdfpsSettings;
 
 import java.util.List;
 
-import lineageos.providers.LineageSettings;
-
 @SearchIndexable
 public class LockScreen extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener  {
